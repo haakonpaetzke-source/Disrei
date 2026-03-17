@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Pause_Functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Pause_Functions",
+  "parent":{
+    "name":"Functions_and_Scripts",
+    "path":"folders/Functions_and_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
