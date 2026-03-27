@@ -16,7 +16,12 @@ if (battle_text_field.battle_state == 2 && attacking = false) {
 			damage_dealt = round(random_range(10, 20))
 			break;
 		} 
-	battle_player.player_hp -= damage_dealt
+	global.player_hp -= damage_dealt
 }
-
+else if battle_text_field.battle_state == 1 {
+	if hp[0] <= 0 {
+		battle_text_field.battle_state = 7
+	}
+}
 var r = random(10)
+

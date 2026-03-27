@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"Disrei",
   "resources":[
@@ -51,6 +51,7 @@
     {"id":{"name":"Font_Button_big","path":"fonts/Font_Button_big/Font_Button_big.yy",},},
     {"id":{"name":"Gui_Button_Font","path":"fonts/Gui_Button_Font/Gui_Button_Font.yy",},},
     {"id":{"name":"Normal_texts_12","path":"fonts/Normal_texts_12/Normal_texts_12.yy",},},
+    {"id":{"name":"Attack","path":"objects/Attack/Attack.yy",},},
     {"id":{"name":"battle_button_attack","path":"objects/battle_button_attack/battle_button_attack.yy",},},
     {"id":{"name":"battle_player","path":"objects/battle_player/battle_player.yy",},},
     {"id":{"name":"battle_text_field","path":"objects/battle_text_field/battle_text_field.yy",},},
@@ -62,6 +63,7 @@
     {"id":{"name":"Pause","path":"objects/Pause/Pause.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Save_Games","path":"objects/Save_Games/Save_Games.yy",},},
+    {"id":{"name":"Target","path":"objects/Target/Target.yy",},},
     {"id":{"name":"Test_battle","path":"objects/Test_battle/Test_battle.yy",},},
     {"id":{"name":"text_field","path":"objects/text_field/text_field.yy",},},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},},

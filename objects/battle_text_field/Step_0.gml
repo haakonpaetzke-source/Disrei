@@ -13,3 +13,14 @@ if keyboard_check_released(vk_space) && (battle_state == 1 || battle_state == 3)
 		}
 	}
 }
+else if battle_state == 0 {
+	if keyboard_check_pressed(vk_escape) {
+		if menu == 1 {
+			menu = 0
+		}
+		else menu = -1
+	}
+	
+}
+
+show_debug_message(menu)

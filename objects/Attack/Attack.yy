@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"battle_button_attack",
+  "%Name":"Attack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"battle_button_attack",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"undefined",},
-  ],
+  "name":"Attack",
+  "overriddenProperties":[],
   "parent":{
     "name":"Battle",
     "path":"folders/GUI/Battle.yy",

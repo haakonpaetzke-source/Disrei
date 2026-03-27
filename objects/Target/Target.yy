@@ -1,22 +1,24 @@
 {
   "$GMObject":"",
-  "%Name":"battle_text_field",
+  "%Name":"Target",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"battle_text_field",
-  "overriddenProperties":[],
+  "name":"Target",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text_art","path":"objects/Button/Button.yy",},"resource":{"name":"Gui_Button_Font","path":"fonts/Gui_Button_Font/Gui_Button_Font.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Gui_Button_Font",},
+  ],
   "parent":{
     "name":"Battle",
     "path":"folders/GUI/Battle.yy",
   },
   "parentObjectId":{
-    "name":"text_field",
-    "path":"objects/text_field/text_field.yy",
+    "name":"Button",
+    "path":"objects/Button/Button.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,9 +33,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"active_battle","filters":[],"listItems":[],"multiselect":false,"name":"active_battle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Test_battle","path":"objects/Test_battle/Test_battle.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Test_battle","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
