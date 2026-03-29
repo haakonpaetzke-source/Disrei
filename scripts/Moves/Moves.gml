@@ -14,3 +14,20 @@ function power(power_level, energy) {
 function knife(power_level, energy) {
 	return 200
 }
+
+
+
+
+
+
+//Specials and items
+function items(item_id) {
+	switch item_id {
+		case 0:
+			global.player_hp += 100
+		return true
+		default:
+			global.player_hp += 10
+		return false
+	}
+}

@@ -1,8 +1,14 @@
-if (on_click != undefined) && mouse_hover{
-	battle_text_field.battle_state ++
-	var asset = battle_text_field.active_battle
-	var damage = on_click(battle_player.player_power, battle_player.energy)
-	
-	asset.hp[battle_player.target] -= damage
+if mouse_hover {
+	var c = 0
+	for (i=0; i <battle_text_field.active_battle.targets; i++) {
+		if battle_text_field.active_battle.spare[i]{
+			battle_text_field.active_battle.spared[i] = true
+			instance_deactivate_object("Target_" + string(i+1))
+			c++
+		}
+	}
+	if c>=battle_text_field.active_battle.targets battle_text_field.battle_state = 7
+	else battle_text_field.battle_state ++
 }
+
 image_blend = click_coler;

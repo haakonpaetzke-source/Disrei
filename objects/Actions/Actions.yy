@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"Actions",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text_art","path":"objects/Button/Button.yy",},"resource":{"name":"Gui_Button_Font","path":"fonts/Gui_Button_Font/Gui_Button_Font.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Gui_Button_Font",},
+  ],
   "parent":{
     "name":"Battle",
     "path":"folders/GUI/Battle.yy",

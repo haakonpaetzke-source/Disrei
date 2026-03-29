@@ -1,8 +1,10 @@
-if (on_click != undefined) && mouse_hover{
-	battle_text_field.battle_state ++
-	var asset = battle_text_field.active_battle
-	var damage = on_click(battle_player.player_power, battle_player.energy)
-	
-	asset.hp[battle_player.target] -= damage
+if mouse_hover {
+	if !battle_text_field.active_battle.blocking_flee battle_text_field.battle_state = 7
+	else {
+		battle_text_field.active_battle.tried_fleeing = true
+		battle_text_field.battle_state ++
+	}
 }
+
+
 image_blend = click_coler;

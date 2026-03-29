@@ -1,2 +1,3 @@
-alarm[0] = 1
+if mouse_hover alarm[0] = 1
+
 image_blend = click_coler;
