@@ -4,6 +4,8 @@ if mouse_hover {
 		battle_text_field.active_battle.tried_fleeing = true
 		battle_text_field.battle_state ++
 	}
+	
+	battle_text_field.menu = -1
 }
 
 

@@ -35,6 +35,7 @@
     {"$GMObjectProperty":"v2","%Name":"hover_coler","filters":[],"listItems":[],"multiselect":false,"name":"hover_coler","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFB2B2B2","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"click_coler","filters":[],"listItems":[],"multiselect":false,"name":"click_coler","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"Text_art","filters":[],"listItems":[],"multiselect":false,"name":"Text_art","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Font_Button_big","path":"fonts/Font_Button_big/Font_Button_big.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Font_Button_big","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"greyed_out","filters":[],"listItems":[],"multiselect":false,"name":"greyed_out","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

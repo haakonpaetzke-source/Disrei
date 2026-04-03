@@ -9,6 +9,8 @@ if mouse_hover {
 	}
 	if c>=battle_text_field.active_battle.targets battle_text_field.battle_state = 7
 	else battle_text_field.battle_state ++
+	
+	battle_text_field.menu = -1
 }
 
 image_blend = click_coler;

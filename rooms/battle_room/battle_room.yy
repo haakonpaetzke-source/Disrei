@@ -11,8 +11,6 @@
     {"name":"action_button","path":"rooms/battle_room/battle_room.yy",},
     {"name":"special_button","path":"rooms/battle_room/battle_room.yy",},
     {"name":"spare_button","path":"rooms/battle_room/battle_room.yy",},
-    {"name":"inst_40E8238A","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_10E0E9BE","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"manager","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Target_1","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Target_2","path":"rooms/battle_room/battle_room.yy",},
@@ -20,10 +18,10 @@
     {"name":"Target_5","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Target_4","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Target_6","path":"rooms/battle_room/battle_room.yy",},
-    {"name":"kick","path":"rooms/battle_room/battle_room.yy",},
-    {"name":"punch","path":"rooms/battle_room/battle_room.yy",},
+    {"name":"Kick","path":"rooms/battle_room/battle_room.yy",},
+    {"name":"Punch","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Power","path":"rooms/battle_room/battle_room.yy",},
-    {"name":"knife","path":"rooms/battle_room/battle_room.yy",},
+    {"name":"Knife","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Special_1","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Special_2","path":"rooms/battle_room/battle_room.yy",},
     {"name":"Special_3","path":"rooms/battle_room/battle_room.yy",},
@@ -92,20 +90,20 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":240.0,"y":120.0,},
       ],"layers":[],"name":"Actions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Attacks","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"kick","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"kick","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"punch",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Punch",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":80.0,"y":120.0,},
-        {"$GMRInstance":"v4","%Name":"punch","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"punch","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"kick",},
+        {"$GMRInstance":"v4","%Name":"Kick","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Kick","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Kick",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":80.0,"y":120.0,},
+        {"$GMRInstance":"v4","%Name":"Punch","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Punch","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Punch",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":80.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"Power","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Power","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"power",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Power Move",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":160.0,"y":96.0,},
-        {"$GMRInstance":"v4","%Name":"knife","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"knife","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"knife",},
+        {"$GMRInstance":"v4","%Name":"Knife","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Knife","objectId":{"name":"Attack","path":"objects/Attack/Attack.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Knife",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6,"scaleY":1.8,"x":160.0,"y":120.0,},
       ],"layers":[],"name":"Attacks","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

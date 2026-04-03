@@ -103,13 +103,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"battle_room","path":"rooms/battle_room/battle_room.yy",},},
     {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"roomId":{"name":"Saves_Worlds","path":"rooms/Saves_Worlds/Saves_Worlds.yy",},},
     {"roomId":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
     {"roomId":{"name":"Test_Room_1","path":"rooms/Test_Room_1/Test_Room_1.yy",},},
     {"roomId":{"name":"Test_Room_2","path":"rooms/Test_Room_2/Test_Room_2.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
+    {"roomId":{"name":"battle_room","path":"rooms/battle_room/battle_room.yy",},},
   ],
   "templateType":"game_strip",
   "TextureGroups":[

@@ -22,5 +22,6 @@ if (on_click != -1) && mouse_hover{
 		}
 		instance_deactivate_object(self)
 	}
+	battle_text_field.menu = -1
 }
 image_blend = click_coler;

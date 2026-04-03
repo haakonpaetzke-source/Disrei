@@ -6,8 +6,8 @@ battle_text_field.current_string_lenght = string_length(ds_list_find_value(battl
 
 targets = 2
 
-hp[0] = 700
-hp[1] = 800
+hp[0] = 500
+hp[1] = 300
 
 spare[0] = false
 spare[1] = false

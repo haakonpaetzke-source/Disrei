@@ -1,4 +1,5 @@
-draw_sprite(test_enemy, 1, 160,40)
+if (hp[0]<=0) draw_sprite_ext(test_enemy, 1, 160,40,1,1,0,-1,0.5)
+else draw_sprite_ext(test_enemy, 1, 160,40,1,1,0,-1,1)
 
 if(attacking = true) {
 		draw_set_font(Normal_texts_12);

@@ -21,6 +21,10 @@ player_power = 1
 
 target = 0
 
+damage = 0
+
+attacked = false
+
 if item_1 == -1 instance_deactivate_object(Special_1)
 else Special_1.on_click = item_1
 if item_1 == -1 instance_deactivate_object(Special_2)
