@@ -1,1 +1,0 @@
-instance_create_layer(-2000,-2000, "Instances", Player)

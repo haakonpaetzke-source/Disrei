@@ -1,10 +1,15 @@
 texts = ds_list_create()
 
+active_battle = global.active_battle
+global.active_battle = undefined
+
 current_point_in_text = 0
 alarm[3] = 30
 texting = true
 
 battle_state = 0
+
+global.win_con = -1
 
 menu = -1
 

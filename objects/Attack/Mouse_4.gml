@@ -1,4 +1,4 @@
-if (on_click != undefined) && mouse_hover {
+if (on_click != undefined) && mouse_hover && battle_text_field.menu=1{
 	switch on_click {
 		case 1:
 			battle_player.damage = punch(battle_player.player_power, battle_player.energy)
@@ -18,8 +18,6 @@ if (on_click != undefined) && mouse_hover {
 	
 	battle_player.attacked = true
 	battle_player.alarm[3] = 150
-	battle_player.target = -1
-	battle_text_field.menu = -1
 	battle_text_field.battle_state ++
 }
 image_blend = click_coler;

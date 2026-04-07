@@ -15,11 +15,6 @@ function knife(power_level, energy) {
 	return 200
 }
 
-
-
-
-
-
 //Specials and items
 function items(item_id) {
 	switch item_id {

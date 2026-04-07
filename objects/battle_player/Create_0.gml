@@ -19,7 +19,7 @@ ini_close()
 energy = 0
 player_power = 1
 
-target = 0
+target = -1
 
 damage = 0
 

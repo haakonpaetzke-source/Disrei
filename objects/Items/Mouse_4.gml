@@ -1,4 +1,4 @@
-if (on_click != -1) && mouse_hover{
+if (on_click != -1) && mouse_hover && battle_text_field.menu == 3 {
 	if items(on_click) {
 		switch Asset {
 			case 1:

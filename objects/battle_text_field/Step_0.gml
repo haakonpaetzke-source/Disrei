@@ -17,10 +17,16 @@ else if battle_state == 0 {
 	if keyboard_check_pressed(vk_escape) {
 		if menu == 1 {
 			menu = 0
+			battle_player.target = -1
 		}
 		else menu = -1
 	}
 	
+}
+else if battle_state == 7 {
+	if keyboard_check_released(vk_space) {
+		Load_Save_Game(global.save_game)	
+	}
 }
 
 show_debug_message(menu)
