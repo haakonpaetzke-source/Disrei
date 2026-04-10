@@ -9,6 +9,7 @@ function update_paused()
 	if (pause) {
 		instance_deactivate_all(true)
         layer_set_visible(layer_name, true)
+		layer_set_visible("NPC_text_and_co", false)
     } else {
         instance_activate_all()
         pause_frame = 0;

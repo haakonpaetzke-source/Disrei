@@ -28,5 +28,3 @@ else if battle_state == 7 {
 		Load_Save_Game(global.save_game)	
 	}
 }
-
-show_debug_message(menu)

@@ -5,8 +5,65 @@ if walking = false && !acting{
 	if keyboard_check(ord("E")) {
 		acting = true
 		walking=false
-		interactinon_value = 0
-		alarm[11] = 10
+		var interactable = ds_list_create()
+		switch facing {
+			case 1:
+				if !place_free(x+16,y) {
+					collision_point_list(x+16,y,all,false,true, interactable ,false)
+					
+					for (i = 0; i < ds_list_size(interactable); i++) {
+						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
+							interaction_target = ds_list_find_value(interactable, i)
+							break
+						}
+					}
+				}
+			break;
+			case 3:
+				if !place_free(x-16,y) {
+					collision_point_list(x-16,y,all,false,true, interactable ,false)
+					
+					for (i = 0; i < ds_list_size(interactable); i++) {
+						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
+							interaction_target = ds_list_find_value(interactable, i)
+							break
+						}
+					}
+				}
+			break;
+			case 2:
+				if !place_free(x,y-16) {
+					collision_point_list(x,y-16,all,false,true, interactable ,false)
+					
+					for (i = 0; i < ds_list_size(interactable); i++) {
+						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
+							interaction_target = ds_list_find_value(interactable, i)
+							break
+						}
+					}
+				}
+			break;
+			case 0:
+				if !place_free(x,y+16) {
+					collision_point_list(x,y+16,all,false,true, interactable ,false)
+					for (i = 0; i < ds_list_size(interactable); i++) {
+						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
+							interaction_target = ds_list_find_value(interactable, i)
+							break
+						}
+					}
+				}
+			break;
+		}
+		
+		if not interaction_target {
+			alarm[11] = 10
+			interaction_value = 0
+		}
+		else {
+			interaction_target.interacting = true
+			interaction_value = interaction_target.interaction_value
+		}
 	}
 	else if keyboard_check(ord("W")) {
 		facing = 2

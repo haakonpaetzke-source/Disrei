@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Interactinons",
-    "path":"folders/Sprites/Player/Standing/Interactinons.yy",
+    "path":"folders/Sprites/Player/Interactinons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,4 +1,4 @@
-if keyboard_check_released(vk_space) && (battle_state == 1 || battle_state == 3) {
+if vk_space {
 	if texting current_string_lenght = 0
 	else {
 		current_point_in_text ++

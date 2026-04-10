@@ -2,7 +2,7 @@ alert = false
 
 stunned = false
 
-find_view(rotation, vision_lenght)
+find_view(facing, vision_lenght)
 
 function find_view(rotation, vision_lenght) {
 	if rotation == 0 || rotation == 2 x_view_add=0

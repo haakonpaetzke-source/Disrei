@@ -31,15 +31,15 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"fight","filters":[],"listItems":[],"multiselect":false,"name":"fight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Test_battle","path":"objects/Test_battle/Test_battle.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Test_battle","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"rotation","filters":[],"listItems":[],"multiselect":false,"name":"rotation","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"facing","filters":[],"listItems":[],"multiselect":false,"name":"facing","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"vision_lenght","filters":[],"listItems":[],"multiselect":false,"name":"vision_lenght","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"sprTest_Enemy",
-    "path":"sprites/sprTest_Enemy/sprTest_Enemy.yy",
+    "name":"sprTest_Enemy_idle_down",
+    "path":"sprites/sprTest_Enemy_idle_down/sprTest_Enemy_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

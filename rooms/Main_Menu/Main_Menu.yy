@@ -13,6 +13,7 @@
     {"name":"inst_7432FBE6","path":"rooms/Main_Menu/Main_Menu.yy",},
     {"name":"inst_40E8238A","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_10E0E9BE","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"NPC_text_panel","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

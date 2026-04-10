@@ -6,8 +6,6 @@ draw_set_valign( fa_center);
 
 draw_text_ext(20,10,"Life: " + string(global.player_hp), 2, 300)
 
-show_debug_message("Target: " + string(target))
-
 if (battle_text_field.battle_state == 1 || battle_text_field.battle_state == 7)  && attacked{
 	draw_text_ext(80,32, string(damage), 2, 300)
 }

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Test_Player_standing",
-    "path":"sprites/spr_Test_Player_standing/spr_Test_Player_standing.yy",
+    "name":"spr_Player_idle_down",
+    "path":"sprites/spr_Player_idle_down/spr_Player_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
