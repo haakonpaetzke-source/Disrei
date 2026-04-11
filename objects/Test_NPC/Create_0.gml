@@ -2,9 +2,8 @@ event_inherited()
 
 alt_interacting = false
 
-talking = true
+talking = false
 
-talk_progression = 1
 max_talk_progrssion = talk_progression + 1
 talk_progression ++
 

@@ -10,50 +10,30 @@ if walking = false && !acting{
 			case 1:
 				if !place_free(x+16,y) {
 					collision_point_list(x+16,y,all,false,true, interactable ,false)
-					
-					for (i = 0; i < ds_list_size(interactable); i++) {
-						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
-							interaction_target = ds_list_find_value(interactable, i)
-							break
-						}
-					}
 				}
 			break;
 			case 3:
 				if !place_free(x-16,y) {
 					collision_point_list(x-16,y,all,false,true, interactable ,false)
-					
-					for (i = 0; i < ds_list_size(interactable); i++) {
-						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
-							interaction_target = ds_list_find_value(interactable, i)
-							break
-						}
-					}
 				}
 			break;
 			case 2:
 				if !place_free(x,y-16) {
 					collision_point_list(x,y-16,all,false,true, interactable ,false)
-					
-					for (i = 0; i < ds_list_size(interactable); i++) {
-						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
-							interaction_target = ds_list_find_value(interactable, i)
-							break
-						}
-					}
 				}
 			break;
 			case 0:
 				if !place_free(x,y+16) {
 					collision_point_list(x,y+16,all,false,true, interactable ,false)
-					for (i = 0; i < ds_list_size(interactable); i++) {
-						if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
-							interaction_target = ds_list_find_value(interactable, i)
-							break
-						}
-					}
 				}
 			break;
+		}
+		
+		for (i = 0; i < ds_list_size(interactable); i++) {
+			if asset_has_tags(ds_list_find_value(interactable, i).object_index, "interactable") {
+				interaction_target = ds_list_find_value(interactable, i)
+				break
+			}
 		}
 		
 		if not interaction_target {
@@ -65,16 +45,16 @@ if walking = false && !acting{
 			interaction_value = interaction_target.interaction_value
 		}
 	}
-	else if keyboard_check(ord("W")) {
+	else if keyboard_check(ord("W")) || keyboard_check(vk_up) {
 		facing = 2
 	}
-	else if keyboard_check(ord("S")) {
+	else if keyboard_check(ord("S")) || keyboard_check(vk_down) {
 		facing = 0
 	}
-	else if keyboard_check(ord("D")) {
+	else if keyboard_check(ord("D")) || keyboard_check(vk_right) {
 		facing = 1
 	}
-	else if keyboard_check(ord("A")) {
+	else if keyboard_check(ord("A")) || keyboard_check(vk_left) {
 		facing = 3
 	}
 	else walking = false
