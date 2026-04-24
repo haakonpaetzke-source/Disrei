@@ -2,7 +2,7 @@ if talk_progression == 2 {
 	talking = true
 	texte(1)
 }
-if talk_progression == 1 {
+else if talk_progression == 1 {
 	talking = true
 	texte(2)
 }
