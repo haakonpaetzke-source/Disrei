@@ -1,0 +1,1 @@
+if (enemy_id != -1) global.defeated_enemys_area_test = global.defeated_enemys_area_test | power(2, enemy_id);

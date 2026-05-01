@@ -1,3 +1,5 @@
+event_user(0)
+
 alert = false
 
 stunned = false

@@ -1,5 +1,4 @@
-if keyboard_check_released(vk_space) {
-	show_debug_message(current_point_in_text)
+if keyboard_check_released(vk_space) && !options {
 	if texting current_string_lenght = 0
 	else {
 		current_point_in_text ++

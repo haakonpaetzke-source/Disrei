@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"m_test_roon_2",
+  "%Name":"m_test_room_2",
   "eventList":[],
   "managed":true,
-  "name":"m_test_roon_2",
+  "name":"m_test_room_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Manager",
     "path":"folders/Rooms/Manager.yy",
   },
   "parentObjectId":{
-    "name":"m_test_roon_1",
-    "path":"objects/m_test_roon_1/m_test_roon_1.yy",
+    "name":"m_test_room_1",
+    "path":"objects/m_test_room_1/m_test_room_1.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

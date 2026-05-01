@@ -2,6 +2,8 @@ function Load_Save_Game(save_id){
 	ini_open("Saves.ini")
 	room_goto(ini_read_real(string(save_id), "Room", 3))
 	
+	global.defeated_enemys_area_test = ini_read_real(string(save_id), "Defeated Enemys Area Test", 0)
+	
 	ini_close()
 }
 
@@ -13,6 +15,8 @@ function Save_Game(save_id, playerX, playerY, player_hp, save_room){
 	ini_write_real(string(save_id), "Player Health", player_hp)
 	
 	ini_write_real(string(save_id), "Room", save_room)
+	
+	ini_write_real(string(save_id), "Defeated Enemys Area Test", global.defeated_enemys_area_test)
 	
 	ini_close()
 }

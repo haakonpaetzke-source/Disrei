@@ -14,6 +14,10 @@
     {"name":"inst_40E8238A","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_10E0E9BE","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"NPC_text_panel","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"Anwser_1","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"Anwser_2","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"Anwser_3","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"Anwser_4","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

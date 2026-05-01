@@ -9,4 +9,6 @@ talk_progression ++
 
 interacted = false
 
+response_value = -1
+
 event_user(0)

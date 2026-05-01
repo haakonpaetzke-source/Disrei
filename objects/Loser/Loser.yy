@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"m_test_roon_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Loser",
+  "eventList":[],
   "managed":true,
-  "name":"m_test_roon_1",
+  "name":"Loser",
   "overriddenProperties":[],
   "parent":{
     "name":"Manager",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Player_idle_down",
+    "path":"sprites/spr_Player_idle_down/spr_Player_idle_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
