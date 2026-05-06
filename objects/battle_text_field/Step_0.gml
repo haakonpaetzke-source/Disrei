@@ -25,6 +25,6 @@ else if battle_state == 0 {
 }
 else if battle_state == 7 {
 	if keyboard_check_released(vk_space) {
-		Load_Save_Game(global.save_game)	
+		Load_Save_Game(global.save_game)
 	}
 }

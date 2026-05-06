@@ -68,6 +68,7 @@
     {"id":{"name":"battle_player","path":"objects/battle_player/battle_player.yy",},},
     {"id":{"name":"battle_text_field","path":"objects/battle_text_field/battle_text_field.yy",},},
     {"id":{"name":"Button","path":"objects/Button/Button.yy",},},
+    {"id":{"name":"Debug","path":"objects/Debug/Debug.yy",},},
     {"id":{"name":"Door","path":"objects/Door/Door.yy",},},
     {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},},
     {"id":{"name":"Interactable","path":"objects/Interactable/Interactable.yy",},},

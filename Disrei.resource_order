@@ -45,6 +45,7 @@
     {"name":"Attack","order":2,"path":"objects/Attack/Attack.yy",},
     {"name":"battle_player","order":2,"path":"objects/battle_player/battle_player.yy",},
     {"name":"battle_text_field","order":1,"path":"objects/battle_text_field/battle_text_field.yy",},
+    {"name":"Debug","order":5,"path":"objects/Debug/Debug.yy",},
     {"name":"Door","order":2,"path":"objects/Door/Door.yy",},
     {"name":"Floor","order":1,"path":"objects/Floor/Floor.yy",},
     {"name":"Interactable","order":4,"path":"objects/Interactable/Interactable.yy",},
