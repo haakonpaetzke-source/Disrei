@@ -20,3 +20,7 @@ if global.enemy_instance != undefined {
 }
 
 global.enemy_instance = undefined
+
+if (room_background_music != noone) && !audio_is_playing(room_background_music) {
+	alarm[8] = 30	
+}

@@ -1,11 +1,16 @@
 if(window_get_width() != winX || window_get_height() != winY) display_set_gui_maximise()
 
 if walking = false && !acting{
+	//audio_stop_sound(walking_sound)
+	
 	walking=true
+	
 	if keyboard_check(ord("E")) {
 		acting = true
 		walking=false
+		
 		var interactable = ds_list_create()
+		
 		switch facing {
 			case 1:
 				if !place_free(x+16,y) {
@@ -44,6 +49,17 @@ if walking = false && !acting{
 			interaction_target.interacting = true
 			interaction_value = interaction_target.interaction_value
 		}
+		
+		/*switch interaction_value {
+				case 0:
+					audio_play_sound(nothing_found, 0.4, false)
+				break
+				case 1:
+				break
+				case 2:
+					audio_play_sound(nothing_found, 0.4, false)
+				break
+		}*/
 	}
 	else if keyboard_check(ord("W")) || keyboard_check(vk_up) {
 		facing = 2
@@ -90,21 +106,23 @@ if walking = false && !acting{
 				else walking=false
 			break;
 		}
+		//if (walking == true) audio_play_sound(walking_sound, 0.2, true)
 	} 
 }
 
-if walking = true && alarm_get(1)>0 {
+if walking = true && alarm[1]>0 {
 	switch facing { 
-	case 1:
-		x++
-	break;
-	case 2:
-		y--
-	break;
-	case 3:
-		x--
-	break;
-	default:
-		y++
+		case 1:
+			x++
+		break;
+		case 2:
+			y--
+		break;
+		case 3:
+			x--
+		break;
+		default:
+			y++
+		break
 	}
 }

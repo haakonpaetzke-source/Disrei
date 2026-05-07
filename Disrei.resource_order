@@ -53,6 +53,7 @@
     {"name":"Leave_Button","order":8,"path":"objects/Leave_Button/Leave_Button.yy",},
     {"name":"Loser","order":3,"path":"objects/Loser/Loser.yy",},
     {"name":"m_test_room_2","order":1,"path":"objects/m_test_room_2/m_test_room_2.yy",},
+    {"name":"Menu_Manager","order":4,"path":"objects/Menu_Manager/Menu_Manager.yy",},
     {"name":"Mercy","order":6,"path":"objects/Mercy/Mercy.yy",},
     {"name":"Run","order":7,"path":"objects/Run/Run.yy",},
     {"name":"Target","order":3,"path":"objects/Target/Target.yy",},

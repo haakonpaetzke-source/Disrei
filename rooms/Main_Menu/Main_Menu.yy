@@ -18,10 +18,12 @@
     {"name":"Anwser_2","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"Anwser_3","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"Anwser_4","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_6698F06D","path":"rooms/Main_Menu/Main_Menu.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_6698F06D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6698F06D","objectId":{"name":"Menu_Manager","path":"objects/Menu_Manager/Menu_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_5D672045","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D672045","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"on_click","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"room_goto",},

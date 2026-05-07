@@ -40,4 +40,6 @@ function texte(nummer) {
 		break
 	}
 	NPC_text_panel.current_string_lenght = string_length(ds_list_find_value(NPC_text_panel.texts, NPC_text_panel.current_point_in_text))
+
+	//audio_play_sound(Test_npc_talking_sound, 0.6, false)
 }

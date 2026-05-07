@@ -12,10 +12,12 @@
     {"name":"inst_7A1203A6","path":"rooms/Saves_Worlds/Saves_Worlds.yy",},
     {"name":"inst_62D5944B","path":"rooms/Saves_Worlds/Saves_Worlds.yy",},
     {"name":"inst_4C32F6C7","path":"rooms/Saves_Worlds/Saves_Worlds.yy",},
+    {"name":"inst_45FE0665","path":"rooms/Saves_Worlds/Saves_Worlds.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_45FE0665","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45FE0665","objectId":{"name":"Menu_Manager","path":"objects/Menu_Manager/Menu_Manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_E35B0DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E35B0DB","objectId":{"name":"Save_Games","path":"objects/Save_Games/Save_Games.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Save_Games","path":"objects/Save_Games/Save_Games.yy",},"propertyId":{"name":"Save_Game_ID","path":"objects/Save_Games/Save_Games.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Button","path":"objects/Button/Button.yy",},"propertyId":{"name":"Text","path":"objects/Button/Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Save Game 1",},

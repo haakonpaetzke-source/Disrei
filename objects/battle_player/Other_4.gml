@@ -3,7 +3,6 @@ global.player_hp = ini_read_real(string(global.save_game), "Player Health", 100)
 if !true {
 	instance_deactivate_object(knife)
 }
-
 item_1 =  ini_read_real(string(global.save_game), "Item 1", -1)
 item_2 =  ini_read_real(string(global.save_game), "Item 2", -1)
 item_3 =  ini_read_real(string(global.save_game), "Item 3", -1)
