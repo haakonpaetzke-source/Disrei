@@ -15,3 +15,5 @@ function find_view(rotation, vision_lenght) {
 	else if rotation == 2 y_view_add = -vision_lenght
 	else y_view_add = vision_lenght
 }
+
+depth=-150
