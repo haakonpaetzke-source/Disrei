@@ -4,7 +4,7 @@ ini_close()
 
 if (global.player_hp <= 0) {
 	event_user(13)
-	room_restart()
+	Load_Save_Game(global.save_game)
 }
 
 instance_create_layer(-2000,-2000, "Instances", Player)

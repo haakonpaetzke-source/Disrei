@@ -13,4 +13,3 @@ switch attack {
 		damage_dealt = round(random_range(10, 20))
 	break;
 } 
-damage_dealt = 50

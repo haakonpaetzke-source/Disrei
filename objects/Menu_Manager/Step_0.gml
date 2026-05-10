@@ -1,1 +1,1 @@
-var ran = random(n)
+var ran = random(10)

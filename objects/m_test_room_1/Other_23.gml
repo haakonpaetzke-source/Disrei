@@ -7,5 +7,6 @@ ini_write_real(string(global.save_game), "Player Health", 100)
 ini_write_real(string(global.save_game), "Room", 3)
 	
 ini_write_real(string(global.save_game), "Defeated Enemys Area Test", 0)
+ini_write_real(string(global.save_game), "Buttons Pressed", 0)
 	
 ini_close()

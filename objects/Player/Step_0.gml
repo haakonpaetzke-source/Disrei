@@ -48,6 +48,7 @@ if walking = false && !acting{
 		else {
 			interaction_target.interacting = true
 			interaction_value = interaction_target.interaction_value
+			if (interaction_value != 1) alarm[11] = 10
 		}
 		
 		/*switch interaction_value {

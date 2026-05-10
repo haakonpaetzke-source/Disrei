@@ -1,23 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"battle_text_field",
+  "%Name":"Button_Lever",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"battle_text_field",
-  "overriddenProperties":[],
+  "name":"Button_Lever",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Interactable","path":"objects/Interactable/Interactable.yy",},"propertyId":{"name":"interaction_value","path":"objects/Interactable/Interactable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+  ],
   "parent":{
-    "name":"Battle",
-    "path":"folders/GUI/Battle.yy",
+    "name":"Tiles",
+    "path":"folders/Objects/Tiles.yy",
   },
   "parentObjectId":{
-    "name":"text_field",
-    "path":"objects/text_field/text_field.yy",
+    "name":"Interactable",
+    "path":"objects/Interactable/Interactable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,14 +32,19 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"Button_id","filters":[],"listItems":[],"multiselect":false,"name":"Button_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_gui_Button",
-    "path":"sprites/spr_gui_Button/spr_gui_Button.yy",
+    "name":"spr_Button_Lever_off",
+    "path":"sprites/spr_Button_Lever_off/spr_Button_Lever_off.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "interactable",
+  ],
   "visible":true,
 }
