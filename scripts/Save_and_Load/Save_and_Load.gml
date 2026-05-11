@@ -1,6 +1,6 @@
 function Load_Save_Game(save_id){
 	ini_open("Saves.ini")
-	room_goto(ini_read_real(string(save_id), "Room", 3))
+	room_goto(ini_read_real(string(save_id), "Room", 7))
 	
 	global.defeated_enemys_area_test = ini_read_real(string(save_id), "Defeated Enemys Area Test", 0)
 	global.buttons_pressed =  ini_read_real(string(save_id), "Buttons Pressed", 0)

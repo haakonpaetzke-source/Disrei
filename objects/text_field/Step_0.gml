@@ -1,8 +1,14 @@
-if vk_space {
+if keyboard_check_pressed(vk_space) {
+	show_debug_message("hello")
 	if texting current_string_lenght = 0
 	else {
 		current_point_in_text ++
 		if current_point_in_text >= ds_list_size(texts) {
+			if (end_action != undefined) {
+				if (asset != undefined) end_action(asset)
+				else end_action()
+			}
+			
 			instance_destroy(self)
 		} else {
 			current_string_lenght = string_length(ds_list_find_value(texts, current_point_in_text))	

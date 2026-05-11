@@ -31,6 +31,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"panel_hight","filters":[],"listItems":[],"multiselect":false,"name":"panel_hight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"panel_width","filters":[],"listItems":[],"multiselect":false,"name":"panel_width","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"end_action","filters":[],"listItems":[],"multiselect":false,"name":"end_action","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"asset","filters":[],"listItems":[],"multiselect":false,"name":"asset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

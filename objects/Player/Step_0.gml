@@ -1,13 +1,13 @@
 if(window_get_width() != winX || window_get_height() != winY) display_set_gui_maximise()
 
-if walking = false && !acting{
+if !walking && !acting{
 	//audio_stop_sound(walking_sound)
 	
-	walking=true
+	walking = true
 	
 	if keyboard_check(ord("E")) {
 		acting = true
-		walking=false
+		walking = false
 		
 		var interactable = ds_list_create()
 		
