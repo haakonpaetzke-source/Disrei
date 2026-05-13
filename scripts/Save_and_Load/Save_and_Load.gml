@@ -4,6 +4,7 @@ function Load_Save_Game(save_id){
 	
 	global.defeated_enemys_area_test = ini_read_real(string(save_id), "Defeated Enemys Area Test", 0)
 	global.buttons_pressed =  ini_read_real(string(save_id), "Buttons Pressed", 0)
+	global.calls =  ini_read_real(string(save_id), "Calls had", 0)
 	
 	ini_close()
 }
@@ -19,6 +20,7 @@ function Save_Game(save_id, playerX, playerY, player_hp, save_room){
 	
 	ini_write_real(string(save_id), "Defeated Enemys Area Test", global.defeated_enemys_area_test)
 	ini_write_real(string(save_id), "Buttons Pressed", global.buttons_pressed)
+	ini_write_real(string(save_id), "Calls had", global.calls)
 	
 	ini_close()
 }

@@ -5,7 +5,7 @@ switch call_id {
 		ds_list_add(NPC_text_panel.texts, "yay")
 	break
 	case 2:
-		ds_list_add(target_list, "yay")
+		ds_list_add(NPC_text_panel.texts, "yay")
 	break
 }
 

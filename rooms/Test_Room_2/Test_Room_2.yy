@@ -444,6 +444,8 @@
     {"name":"inst_4389C001","path":"rooms/Test_Room_2/Test_Room_2.yy",},
     {"name":"inst_1AFC131D","path":"rooms/Test_Room_2/Test_Room_2.yy",},
     {"name":"inst_52EDB733","path":"rooms/Test_Room_2/Test_Room_2.yy",},
+    {"name":"inst_791A0291","path":"rooms/Test_Room_2/Test_Room_2.yy",},
+    {"name":"inst_45C3112C","path":"rooms/Test_Room_2/Test_Room_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -923,6 +925,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obsticle","path":"objects/Obsticle/Obsticle.yy",},"propertyId":{"name":"asset_1","path":"objects/Obsticle/Obsticle.yy",},"resource":{"name":"Button_3","path":"rooms/Test_Room_2/Test_Room_2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Button_3",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obsticle","path":"objects/Obsticle/Obsticle.yy",},"propertyId":{"name":"asset_2","path":"objects/Obsticle/Obsticle.yy",},"resource":{"name":"Button_4","path":"rooms/Test_Room_2/Test_Room_2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Button_4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":216.0,"y":184.0,},
+        {"$GMRInstance":"v4","%Name":"inst_791A0291","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_791A0291","objectId":{"name":"Call_tile","path":"objects/Call_tile/Call_tile.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Call_tile","path":"objects/Call_tile/Call_tile.yy",},"propertyId":{"name":"call_id","path":"objects/Call_tile/Call_tile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":328.0,"y":200.0,},
+        {"$GMRInstance":"v4","%Name":"inst_45C3112C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45C3112C","objectId":{"name":"Reset_Button","path":"objects/Reset_Button/Reset_Button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

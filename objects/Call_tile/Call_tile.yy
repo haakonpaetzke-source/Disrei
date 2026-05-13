@@ -2,10 +2,10 @@
   "$GMObject":"",
   "%Name":"Call_tile",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Call_tile",
@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"Sprite","filters":[],"listItems":[],"multiselect":false,"name":"Sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sBlue","path":"sprites/sBlue/sBlue.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sBlue","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"Sprite","filters":[],"listItems":[],"multiselect":false,"name":"Sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sFloor","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"call_id","filters":[],"listItems":[],"multiselect":false,"name":"call_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
   ],
   "resourceType":"GMObject",

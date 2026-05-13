@@ -15,7 +15,7 @@ x=grid_location_x * 16 - 8
 y=grid_location_y * 16 - 8
 
 acting = false
-interactinon_value = -1
+interaction_value = -1
 interaction_target = false
 
 winX= window_get_width()
