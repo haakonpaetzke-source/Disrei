@@ -7,5 +7,5 @@ if alarm[3] == -1 && alarm[4] = -1 {
 		solid = true
 	}
 
-	event_user(1)
+	if (asset_1 != noone && asset_2 != noone) event_user(1)
 }

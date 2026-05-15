@@ -47,4 +47,8 @@ else {
 	}
 }
 
-if !stunned draw_line_colour(x,y,x+x_view_add,y+y_view_add, c_red,c_red)
+if !stunned {
+	find_view(facing)
+	
+	draw_line_colour(x, y, x + x_view_add*16*vision_lenght, y + y_view_add*16*vision_lenght, c_red, c_red)
+}

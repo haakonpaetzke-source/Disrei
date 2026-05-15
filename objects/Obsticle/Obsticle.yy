@@ -32,8 +32,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"frames_to_gow_down","filters":[],"listItems":[],"multiselect":false,"name":"frames_to_gow_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"asset_1","filters":[],"listItems":[],"multiselect":false,"name":"asset_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Button_1","path":"rooms/Test_Room_2/Test_Room_2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Button_1","varType":5,},
-    {"$GMObjectProperty":"v2","%Name":"asset_2","filters":[],"listItems":[],"multiselect":false,"name":"asset_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Button_2","path":"rooms/Test_Room_2/Test_Room_2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Button_2","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"asset_1","filters":[],"listItems":[],"multiselect":false,"name":"asset_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"asset_2","filters":[],"listItems":[],"multiselect":false,"name":"asset_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Button_2","path":"rooms/Test_Room_2/Test_Room_2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
